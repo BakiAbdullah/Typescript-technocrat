@@ -41,6 +41,15 @@
     };
   };
 
-  const student1 = addCourseToStudent({name: 'mr X', email: 'mr.x@gmail.com', devType: 'Next Level'})
-  const student2 = addCourseToStudent({name: 'mr y', email: 'mr.y@gmail.com', hasWatch: 'Apple watch'})
+  const student1 = addCourseToStudent({
+    name: "mr X",
+    email: "mr.x@gmail.com",
+    devType: "Next Level",
+  });
+  
+  const student2 = addCourseToStudent({
+    name: "mr y",
+    email: "mr.y@gmail.com",
+    hasWatch: "Apple watch",
+  });
 }
